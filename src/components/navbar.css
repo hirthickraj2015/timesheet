@@ -1,0 +1,80 @@
+* {
+    font-family: Arial;
+}
+
+#nav {
+    background: linear-gradient(#19105b, #472067, #7c3375, #FF6196) !important;
+    border-radius: 0 !important;
+    border: none !important;
+    height: 100vh; /* Use viewport height for full-screen height */
+}
+.topdiv{
+    display: flex;
+    justify-content: space-between;
+}
+#logodiv {
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+}
+
+.navelem {
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 0 !important;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.navlin {
+    padding-bottom: 10px;
+    font-size: small;
+}
+.navlin:hover{
+    font-size: 1rem;
+}
+.logout {
+    width: fit-content;
+    display: inherit;
+    bottom: 10px;
+    position: absolute;
+}
+hr{
+    background-color: white;
+}
+i{
+    color: white;
+    font-size: 20px;
+}
+.logt{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+
+.logt:hover{
+    font-size: 2rem;
+}
+
+#nav.open {
+    width: 200px; 
+    transition: width 0.5s ease; 
+    
+}
+
+#nav.closed {
+  width: 0;
+  display: none; 
+  transition: 2.5s left;
+}
+
+.mgt{
+    color:white;
+}
+@media (max-width: 1000px) { 
+  #nav {
+    display: none;
+  }
+}

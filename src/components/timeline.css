@@ -1,0 +1,88 @@
+
+
+.allow {
+    padding-left: 20px;
+    background-color: #19105B;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin: 3px;
+}
+
+.tbl {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FFE5EE !important;
+    font-size: 13px;
+    font-weight: bold;
+    color: #19105B !important;
+}
+
+.tbl td {
+    padding: 8px;
+    text-align: center;
+    border: none; /* Remove border for table cells */
+}
+
+.tbl th {
+    padding: 8px;
+    text-align: center;
+    border: none; /* Remove border for table headers */
+}
+
+.tblhd {
+    background: #FFE5EE !important;
+    font-size: 13px;
+    font-weight: bold;
+    color: #19105B !important;
+}
+
+.tblno {
+    background: #fff;
+    color: #6a6c71;
+    padding: 10px !important;
+    font-size: 13px;
+}
+
+input[type="text"], select,input[type="number"] {
+    width: 100%; /* Make input and select fields fit within their container */
+    border: none; /* Remove borders from input and select fields */
+    outline: none; /* Remove outline */
+}
+
+.tda {
+    background: #fff;
+    color: #6a6c71;
+    padding: 10px !important;
+    font-size: 13px;
+    font-weight: normal;
+}
+.btns{
+    background-color: #19105B;
+    color: white;
+}
+.btns1{
+    background-color: #FF6196 ;
+    color:white;
+    margin-left: 20px;
+}
+.btd{
+    margin-top: 30px;
+}
+i{
+    color: black;
+}
+.logt{
+    color: white;
+}
+
+/* Timeline.css or your global CSS file */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
